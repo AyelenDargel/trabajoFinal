@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="./trabajoFinal.html">inicio</a></li>
+                <li><a href="./trabajoFinal2.html">productos</a></li>
+                <li><a href="./formulario.html">contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <div class="inicioProductoContactos">
+        
+        <img src="./logo2.jpg" alt="logo">
+        <h1>Supermercado Feliz</h1>
+
+      
+    </div>
+
+    
+
+     
+    <p>Productos</p>
+    <div class="productos-container">
+
+       <div class="producto" id="dulce">
+            <img src="./dulce.webp" alt="dulce">
+            <p>Dulce de leche $<span>1000</span></p>
+            <input type="number" min="1" max="[cantidadDisponible]" value="[cantidadSeleccionada]"/>
+            <button onclick='comprarProducto("dulce")'>Comprar</button>
+        </div>
+        <div class="producto" id="cerveza">
+            <img src="./cerveza2.webp" alt="cerveza">
+            <p>cerveza corona 330cc $<span>1300</span></p>
+            <input type="number" min="1" max="[cantidadDisponible]" value="[cantidadSeleccionada]"/>
+            <button onclick='comprarProducto("cerveza")'>Comprar</button>
+       </div>
+        <div class="producto" id="vino">
+            <img src="./vino3.webp" alt="vino">
+            <p>vino blanco x $<span>2500</span></p>
+            <input type="number" min="1" max="[cantidadDisponible]" value="[cantidadSeleccionada]"/>
+            <button onclick='comprarProducto("vino")'>Comprar</button>
+        </div>
+
+        <div class="producto" id="jugo">
+            <img src="./clight4.webp" alt="jugo">
+            <p>jugo cligth $<span>200</span></p>
+            <input type="number" min="1" max="[cantidadDisponible]" value="[cantidadSeleccionada]"/>
+            <button onclick='comprarProducto("jugo")'>Comprar</button>
+        </div>
+
+        <div class="producto" id="oreos">
+            <img src="./oreos.webp" alt="oreos">
+            <p>Galletitas oreos 350g $<span>3299</span></p>
+            <input type="number" min="1" max="[cantidadDisponible]" value="[cantidadSeleccionada]"/>
+            <button onclick='comprarProducto("oreos")'>Comprar</button>
+        </div>
+
+        <div class="producto" id="azucar">
+            <img src="./azucar.webp" alt="azucar">
+            <p>azucar comun La Perla 1kg $<span>860</span></p>
+            <input type="number" min="1" max="[cantidadDisponible]" value="[cantidadSeleccionada]"/>
+            <button onclick='comprarProducto("azucar")'>Comprar</button>
+        </div>
+
+        <div class="producto" id="yerba">
+            <img src="./yerba.webp" alt="yerba">
+            <p>Yerba mate Playadito suave con palo 1 kg $<span>3840</span></p>
+            <input type="number" min="1" max="[cantidadDisponible]" value="[cantidadSeleccionada]"/>
+            <button onclick='comprarProducto("yerba")'>Comprar</button>
+        </div>
+
+        <div class="producto" id="pure">
+            <img src="./pure de tomate.webp" alt="pure de tomate">
+            <p>Puré de tomate Carrefour classic 520 g $<span>699</span></p>
+             <input type="number" min="1" max="[cantidadDisponible]" value="[cantidadSeleccionada]"/>
+            <button onclick='comprarProducto("pure")'>Comprar</button>
+        </div>
+
+    
+        <div class="producto" id="sal">
+            <img src="./sal.webp" alt="sal">
+            <p>Sal fina Celusal paquete 500 g. $<span>1089</span></p>
+            <input type="number" min="1" max="[cantidadDisponible]" value="[cantidadSeleccionada]"/>
+            <button onclick='comprarProducto("sal")'>Comprar</button>
+        </div>
+
+        <div class="producto" id="fideos">
+            <img src="./fideos.webp" alt="fideos">
+            <p>Fideos mostacholes N51 Lucchetti rayado 500 g. $<span>1020</span></p>
+            <input type="number" min="1" max="[cantidadDisponible]" value="[cantidadSeleccionada]"/>
+            <button onclick='comprarProducto("fideos")'>Comprar</button>
+        </div>
+    
+
+
+
+    <div class="total">
+    <p>Total: $<span id="total">  000</span></p></div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Supermercado Feliz</p>
+    </footer>
+
+    <script src="./scrip2.js"></script>
+</body>
+</html>

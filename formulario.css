@@ -1,0 +1,79 @@
+.menu{
+    display: flex;
+    position: absolute;
+    float: inherit;
+    font-style: oblique;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-left: 0px;
+    right: 0px;
+    left: 720px;
+    height: 200px;
+    width: 400px
+
+}
+
+.logo img{
+   
+    height: 150px;
+    width: 140px;
+    border-radius: 5px;
+    left: 8px;
+    overflow: hidden;
+}
+
+
+
+.menu li {
+    list-style: none;
+    padding: 0px 10px; /* Añadí un espacio entre elementos del menú */
+  }
+  
+  .inicioProductoContactos{
+    display:inline-flex;
+    background-color: rgb(243, 250, 180);
+    height: 100px;
+    width: 100%;
+    left: 8px;
+    flex-wrap: nowrap;
+  }
+  
+  .inicioProductoContactos h1{
+    display: flex;
+    position: absolute;
+    font-style: oblique;
+    padding-left: 180px;
+  }
+
+  .total{
+    position: inherit;
+    width: 100%;
+    background-color: floralwhite;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.footer{
+    
+    background-color: rgb(5, 5, 5);
+    color: rgb(225, 235, 235);
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    height: 100px;
+    width: 100%;
+
+
+}
+
+
+h2{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    border: solid #ddbdb0;
+}
